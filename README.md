@@ -53,4 +53,4 @@ It stores the transaction details in the Realtime Database under `LNM/success` f
 
 | Name    | Required | Description                                                                                                               |
 | ------- | -------- | ------------------------------------------------------------------------------------------------------------------------- |
-| tokenId | Yes      | A Firebase Cloud messaging token from a device. It is used to send a notification to the user on the transactions result. |
+| tokenId | Yes      | A Firebase Cloud messaging token from a device. It is used to send a notification with the transaction result to the user. |
