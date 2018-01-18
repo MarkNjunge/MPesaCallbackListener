@@ -9,8 +9,8 @@ Related Android app: [LNMOnlineAndroidSample](https://github.com/MarkNjunge/LNMO
 ## Installation
 
 ```
-git clone
-cd MpesaCallbackHandler
+git clone https://github.com/MarkNjunge/MPesaCallbackListener.git
+cd MPesaCallbackListener
 yarn install
 ```
 
