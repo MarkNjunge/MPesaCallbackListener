@@ -1,6 +1,17 @@
 {
   "name": "functions",
+  "version": "1.0.0",
   "description": "Cloud Functions for Firebase",
+  "main": "index.js",
+  "keywords": ["firebase-functions", "firebase-realtime-database", "m-pesa"],
+  "bugs": {
+    "url": "https://github.com/MarkNjunge/MPesaCallbackListener/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Mark Njung'e",
+    "email": "mark.kamau@outlook.com"
+  },
   "scripts": {
     "serve": "firebase serve --only functions",
     "shell": "firebase experimental:functions:shell",
@@ -14,6 +25,5 @@
     "firebase-admin": "~5.4.2",
     "firebase-functions": "^0.7.1",
     "moment": "^2.20.1"
-  },
-  "private": true
+  }
 }
