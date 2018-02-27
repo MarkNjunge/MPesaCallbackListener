@@ -49,7 +49,7 @@ app.post("/:token", (req, res) => {
 
 function sendNotification(title, body, token) {
   const payload = { notification: { title, body } };
-  // return admin.messaging().sendToDevice(token, payload);
+  return admin.messaging().sendToDevice(token, payload);
 }
 
 module.exports = app;
