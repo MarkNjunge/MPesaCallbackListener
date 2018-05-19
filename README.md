@@ -10,11 +10,15 @@ Related Android app: [LNMOnlineAndroidSample](https://github.com/MarkNjunge/LNMO
 
 ```
 git clone https://github.com/MarkNjunge/MPesaCallbackListener.git
+
 cd MPesaCallbackListener
+
 yarn install
 ```
 
 ## Testing locally
+
+To test Messaging locally, you will need to [Set up admin credentials](https://firebase.google.com/docs/functions/local-emulator?authuser=0#set_up_admin_credentials_optional)
 
 Serve using  
 `firebase serve --only functions`
@@ -51,6 +55,6 @@ It stores the transaction details in the Realtime Database under `LNM/success` f
 
 #### Url Parameters
 
-| Name    | Required | Description                                                                                                               |
-| ------- | -------- | ------------------------------------------------------------------------------------------------------------------------- |
+| Name    | Required | Description                                                                                                                |
+| ------- | -------- | -------------------------------------------------------------------------------------------------------------------------- |
 | tokenId | Yes      | A Firebase Cloud messaging token from a device. It is used to send a notification with the transaction result to the user. |
