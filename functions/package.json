@@ -26,8 +26,8 @@
   "dependencies": {
     "cors": "^2.8.4",
     "express": "^4.16.2",
-    "firebase-admin": "~5.4.2",
-    "firebase-functions": "^0.7.1",
+    "firebase-admin": "^5.12.1",
+    "firebase-functions": "^1.0.2",
     "moment": "^2.20.1"
   }
 }
